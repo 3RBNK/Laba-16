@@ -1,0 +1,6 @@
+# ninja log v5
+2	112	7304643536014747	CMakeFiles/code.dir/main.c.obj	7696655d8e7f2869
+8	193	7304643536802075	CMakeFiles/code.dir/data_structures/matrix/matrix.c.obj	75b1d7fb458cd3ee
+12	94	7304643535814741	CMakeFiles/code.dir/algorithms/algorithms.c.obj	1a177a95797af91b
+193	336	7304643538147506	code.exe	db31f718f145492
+0	202	7304680928957468	build.ninja	bb9f22657fd45cea

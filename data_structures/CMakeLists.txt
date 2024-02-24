@@ -1,2 +1,3 @@
-add_library(matrix/matrix.h
-            matrix/matrix.c)
+add_library(dara_structures
+        matrix/matrix.c
+)
