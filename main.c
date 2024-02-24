@@ -8,11 +8,14 @@
 
 
 int main() {
-    matrix a = create_matrix_from_array((int[]) {6, 12, 9, 2,
-                                                 7, 1, 3, 4,
-                                                 10, 11, 5, 1}, 3, 4);
+    matrix a = create_matrix_from_array((int[]) {7, 1,
+                                                 2, 7,
+                                                 5, 4,
+                                                 4, 3,
+                                                 1, 6,
+                                                 8, 0}, 6, 2);
 
-    int v = get_min_in_area(a);
+    int v = count_eq_classes_by_rows_sum(a);
 
     printf("%d", v);
 

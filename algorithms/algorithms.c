@@ -222,4 +222,44 @@ void sort_by_distance(matrix* m) {
 }
 
 
+// 10
+int cmp_long_long(const void* pa, const void* pb) {
+    return (int)(*(long long int*) pa - *(long long int*) pb);
+}
+
+
+int count_n_unique(long long int a[], int n) {
+    int amount = 1;
+
+    int i = 0;
+    while (i < n - 1) {
+        if (a[i] != a[i + 1])
+            amount++;
+
+        i++;
+    }
+
+    return amount;
+}
+
+
+int count_eq_classes_by_rows_sum(matrix m) {
+    long long int values[m.n_rows];
+
+    for (int i = 0; i < m.n_rows; i++)
+        values[i] = get_sum(m.values[i], m.n_cols);
+
+    qsort(values, m.n_rows, sizeof(long long int), cmp_long_long);
+
+
+    for (size_t i = 0; i < m.n_rows; i++)
+        printf("%lld ", values[i]);
+    printf("\n");
+
+    int result = count_n_unique(values, m.n_rows);
+
+    return result;
+}
+
+
 
