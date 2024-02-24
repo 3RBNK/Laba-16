@@ -5,18 +5,17 @@
 
 
 
+
+
 int main() {
-    matrix m1 = create_matrix_from_array((int[]) {3, -5,
-                                                  1, -2}, 2, 2);
+    matrix a = create_matrix_from_array((int[]) {6, 12, 9, 2,
+                                                 7, 1, 3, 4,
+                                                 10, 11, 5, 1}, 3, 4);
 
-    matrix m2 = create_matrix_from_array((int[]) {2, -5,
-                                                  1, -3}, 2, 2);
+    int v = get_min_in_area(a);
 
-    matrix res = mul_matrices(m1, m2);
+    printf("%d", v);
 
-    output_matrix(&res);
-
-    printf("%d", is_mutually_inverse_matrices(m1, m2));
 
     return 0;
 }
