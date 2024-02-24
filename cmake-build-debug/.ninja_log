@@ -24,3 +24,11 @@
 9	166	7304951799229986	CMakeFiles/code.dir/algorithms/algorithms.c.obj	1a177a95797af91b
 15	178	7304951799329955	CMakeFiles/code.dir/data_structures/matrix/matrix.c.obj	75b1d7fb458cd3ee
 178	365	7304951801139945	code.exe	db31f718f145492
+4	129	7304967626766176	CMakeFiles/code.dir/main.c.obj	7696655d8e7f2869
+11	201	7304967627496127	CMakeFiles/code.dir/data_structures/matrix/matrix.c.obj	75b1d7fb458cd3ee
+16	210	7304967627536131	CMakeFiles/code.dir/algorithms/algorithms.c.obj	1a177a95797af91b
+211	344	7304967628857849	code.exe	db31f718f145492
+2	117	7304970555982171	CMakeFiles/code.dir/main.c.obj	7696655d8e7f2869
+10	176	7304970556572136	CMakeFiles/code.dir/data_structures/matrix/matrix.c.obj	75b1d7fb458cd3ee
+17	181	7304970556622157	CMakeFiles/code.dir/algorithms/algorithms.c.obj	1a177a95797af91b
+182	335	7304970558072149	code.exe	db31f718f145492
