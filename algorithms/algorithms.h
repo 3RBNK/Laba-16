@@ -23,4 +23,7 @@ void get_square_of_matrix_if_symmetric(matrix* m);
 
 void transpose_if_matrix_has_not_equal_sum_of_rows(matrix* m);
 
+
+bool is_mutually_inverse_matrices(matrix m1, matrix m2);
+
 #endif //CODE_ALGORITHMS_H

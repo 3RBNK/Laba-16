@@ -141,5 +141,14 @@ void transpose_if_matrix_has_not_equal_sum_of_rows(matrix* m) {
 }
 
 
+// 6
+bool is_mutually_inverse_matrices(matrix m1, matrix m2) {
+    matrix multi = mul_matrices(m1, m2);
+
+    if (is_E_matrix(&multi))
+        return true;
+    return false;
+}
+
 
 
