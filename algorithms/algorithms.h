@@ -46,4 +46,7 @@ int get_n_special_element(matrix m);
 
 void swap_penultimate_row(matrix* m, int n);
 
+
+int count_non_descending_rows_matrices(matrix ms[], int n_matrix);
+
 #endif //CODE_ALGORITHMS_H
