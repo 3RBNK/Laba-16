@@ -430,3 +430,7 @@ void print_matrix_with_min_standard(matrix ms[], int n_matrix) {
         if (max_value[i] == min_value)
             output_matrix(ms + i);
 }
+
+
+// 16
+
