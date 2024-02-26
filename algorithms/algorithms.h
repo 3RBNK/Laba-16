@@ -16,7 +16,7 @@ void swap_min_max_rows(matrix* m);
 int get_max(const int a[], int n);
 
 
-// сортирует строки матрицы m по неубыванию наибольших элементов строк
+// сортирует строки матрицы m по не убыванию наибольших элементов строк
 void sort_rows_by_max_element(matrix* m);
 
 
@@ -24,7 +24,7 @@ void sort_rows_by_max_element(matrix* m);
 int get_min(const int a[], int n);
 
 
-// сортирует столбцы матрицы m по неубыванию наименьших элементов столбцов
+// сортирует столбцы матрицы m по не убыванию наименьших элементов столбцов
 void sort_cols_by_min_element(matrix* m);
 
 
@@ -75,7 +75,7 @@ int get_min_in_area(matrix m);
 float get_distance(int a[], int n);
 
 
-// сортирует строки матрицы m по неубыванию, основываясь на критерии criteria
+// сортирует строки матрицы m по не убыванию, основываясь на критерии criteria
 void insertion_sort_rows_matrix_by_row_criteria_F(matrix* m, float (*criteria)(int*, int));
 
 
@@ -104,18 +104,18 @@ position get_left_min(matrix m);
 void swap_penultimate_row(matrix* m, int n);
 
 
-// возвращает true, если массив a размера n отсортирован по неубыванию
+// возвращает true, если массив a размера n отсортирован по не убыванию
 // иначе false
 bool is_non_descending_sorted(const int a[], int n);
 
 
-// возвращает true, если все строки матрицы m отсортированы по неубыванию
+// возвращает true, если все строки матрицы m отсортированы по не убыванию
 // иначе false
 bool has_all_non_descending_rows(matrix m);
 
 
 // возвращает количество матриц, из массива матриц ms размера n_matrix,
-// строки в которых упорядочены по неубыванию
+// строки в которых упорядочены по не убыванию
 int count_non_descending_rows_matrices(matrix ms[], int n_matrix);
 
 
@@ -162,7 +162,7 @@ int get_n_special_element_2(matrix m);
 double get_scalar_product(int a[], int b[], int n);
 
 
-// возвращает длинну вектора a размера n
+// возвращает длину вектора a размера n
 double get_vector_length(int a[], int n);
 
 
